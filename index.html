@@ -44,6 +44,34 @@
             cursor: pointer;
         }
 
+        .main-container{
+            display: flex;
+            flex-direction: row;
+            padding-left: 200px;
+            padding-right: 200px;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .div-1-main-text{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .div-1-text{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(113, 113, 122);
+        }
+
+        .main-container-text{
+            padding-top: 0px;
+        }
+
+        .main-image{
+            padding-top: 70px;
+            padding-left: 50px;
+        }
+
         @media (max-width:768px) {
             .navbar {
                 padding: 10px;
@@ -62,7 +90,15 @@
         </div>
     </div>
 
-    
+    <div class="main-container">
+        <div class="main-container-text">
+            <h1 class="div-1-main-text">Why design OG images when your website already converts?</h1>
+            <span class="div-1-text">Instantly turn your website’s hero sections into stunning OG images—no design skills needed. Boost brand visibility and drive clicks with automated, high-converting social previews.</span>
+        </div>
+        <div class="main-image">
+            <img src="./images/main-image.webp" alt="main-image" height="430px"/>
+        </div>
+    </div>
 </body>
 
 </html>
