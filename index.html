@@ -95,12 +95,62 @@
 
         .demo-btn {
             background-color: white;
-            border: 1px solid rgb(212, 212, 216);;
+            border: 1px solid rgb(212, 212, 216);
+            ;
             padding: 10px 20px;
             border-radius: 5px;
             font-weight: 500;
             width: 300px;
         }
+
+        .heading {
+            text-align: center;
+            margin-top: 60px;
+        }
+
+        .sub-container {
+            padding-left: 250px;
+            padding-right: 250px;
+            padding-bottom: 200px;
+        }
+
+        .main-sub-div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .sub-div {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sub-div-heading {
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        p {
+            color: rgb(113, 113, 122);
+            text-align: center;
+        }
+
+        .card-number {
+            background-color: rgb(5, 150, 105);
+            height: 40px;
+            width: 40px;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
 
         @media (max-width:768px) {
             .navbar {
@@ -109,31 +159,62 @@
             }
         }
 
-        @media screen and (max-width: 700px){
-            .main-container{
+        @media screen and (max-width: 700px) {
+            .main-container {
                 display: flex;
                 flex-direction: column;
                 padding-left: 20px;
                 padding-right: 20px;
             }
 
-            .main-container-1-div{
-            padding-left: 5px;
-            padding-bottom: 5px;
-            padding-right: 5px;
-            width: 100%;
+            .main-container-1-div {
+                padding-left: 5px;
+                padding-bottom: 5px;
+                padding-right: 5px;
+                width: 100%;
             }
 
-            .main-container-2-div{
+            .main-container-2-div {
                 background-image: none;
                 display: flex;
+                height: 30px;
                 flex-direction: column;
                 justify-content: start;
             }
 
-            .demo-btn{
+            .demo-btn {
                 width: 300px;
             }
+
+        }
+
+        @media screen and (max-width: 700px) {
+            .sub-container {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+
+            .heading {
+                text-align: left;
+                margin-top: 5px;
+            }
+
+            .main-sub-div {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                margin-top: 30px;
+            }
+
+            .sub-div {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+            }
+
+            p {
+            text-align: left;
         }
     </style>
 </head>
@@ -161,6 +242,30 @@
             <button class="demo-btn">Get a Live Demo of your new OG Image</button>
         </div>
     </div>
+
+    <div class="sub-container">
+        <h1 class="heading">How it works?</h1>
+        <div class="main-sub-div">
+
+            <div class="sub-div">
+                <h3 class="card-number">1</h3>
+                <span class="sub-div-heading">Add your Website</span>
+                <p>Connect your site to Mosaic with just a few clicks</p>
+            </div>
+
+            <div class="sub-div">
+                <h3 class="card-number">2</h3>
+                <span class="sub-div-heading">We Generate an OG Image</span>
+                <p>Mosaic automatically grabs a beautiful OG Image of your website's hero section</p>
+            </div>
+
+            <div class="sub-div">
+                <h3 class="card-number">3</h3>
+                <span class="sub-div-heading">Add the OG Image to Your Site</span>
+                <p>Insert the generated link in your meta tags for instant previews</p>
+            </div>
+
+        </div>
     </div>
 </body>
 
