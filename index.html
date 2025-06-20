@@ -105,7 +105,7 @@
             font-size: 14px;
         }
 
-        .url-btn{
+        .url-btn {
             background-color: white;
             border: 1px solid rgb(212, 212, 216);
             padding: 10px 20px;
@@ -128,7 +128,7 @@
         .sub-container {
             padding-left: 250px;
             padding-right: 250px;
-            padding-bottom: 200px;
+            padding-bottom: 30px;
         }
 
         .main-sub-div {
@@ -152,7 +152,7 @@
             font-weight: 600;
         }
 
-        p {
+        .sub-div-p {
             color: rgb(113, 113, 122);
             text-align: center;
         }
@@ -166,6 +166,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        .sub-container-1 {
+            padding-left: 250px;
+            padding-right: 250px;
+            padding-bottom: 400px;
+            text-align: center;
+        }
+
+        .feature-font{
+            font-size: 18px;
         }
 
 
@@ -205,7 +216,7 @@
 
         }
 
-        @media screen and (max-width: 700px) {
+        @media screen and (max-width: 750px) {
             .sub-container {
                 padding-left: 10px;
                 padding-right: 10px;
@@ -230,8 +241,9 @@
                 align-items: start;
             }
 
-            p {
-            text-align: left;
+            .sub-div-p {
+                text-align: left;
+            }
         }
     </style>
 </head>
@@ -268,25 +280,35 @@
             <div class="sub-div">
                 <h3 class="card-number">1</h3>
                 <span class="sub-div-heading">Add your Website</span>
-                <p>Connect your site to Mosaic with just a few clicks</p>
+                <p class="sub-div-p">Connect your site to Mosaic with just a few clicks</p>
             </div>
 
             <div class="sub-div">
                 <h3 class="card-number">2</h3>
                 <span class="sub-div-heading">We Generate an OG Image</span>
-                <p>Mosaic automatically grabs a beautiful OG Image of your website's hero section</p>
+                <p class="sub-div-p">Mosaic automatically grabs a beautiful OG Image of your website's hero section</p>
             </div>
 
             <div class="sub-div">
                 <h3 class="card-number">3</h3>
                 <span class="sub-div-heading">Add the OG Image to Your Site</span>
-                <p>Insert the generated link in your meta tags for instant previews</p>
+                <p class="sub-div-p">Insert the generated link in your meta tags for instant previews</p>
             </div>
 
         </div>
     </div>
 
-    <div></div>
+    <div class="sub-container-1">
+        <h1>Features & Benefits</h1>
+        <p class="feature-font">✅Automated OG image generation from your web pages</p>
+        <p class="feature-font">✅Seamless integration with minimal setup</p>
+        <p class="feature-font">✅Beautiful social previews that boost engagement</p>
+        <p class="feature-font">✅High-quality, retina-ready OG Images</p>
+        <p class="feature-font">✅Global CDN for fast OG Image delivery</p>
+        <p class="feature-font">✅Simple dashboard for managing multiple websites</p>
+        <p class="feature-font">✅"Refresh OG Images" option when your site design changes</p>
+        <p class="feature-font">✅Advanced analytics and usage tracking for Pro users</p>
+    </div>
 </body>
 
 </html>
