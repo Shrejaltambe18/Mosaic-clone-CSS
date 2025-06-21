@@ -128,7 +128,7 @@
         .sub-container {
             padding-left: 250px;
             padding-right: 250px;
-            padding-bottom: 30px;
+            padding-bottom: 10px;
         }
 
         .main-sub-div {
@@ -172,13 +172,37 @@
             padding-left: 250px;
             padding-right: 250px;
             padding-bottom: 400px;
+            padding: 40px;
             text-align: center;
         }
 
-        .feature-font{
+        .feature {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .feature img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .feature-text {
             font-size: 18px;
         }
 
+        h1 {
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .sub-container-2 {
+            padding-left: 250px;
+            padding-right: 250px;
+            padding-bottom: 400px;
+        }
 
         @media (max-width:768px) {
             .navbar {
@@ -300,14 +324,49 @@
 
     <div class="sub-container-1">
         <h1>Features & Benefits</h1>
-        <p class="feature-font">✅Automated OG image generation from your web pages</p>
-        <p class="feature-font">✅Seamless integration with minimal setup</p>
-        <p class="feature-font">✅Beautiful social previews that boost engagement</p>
-        <p class="feature-font">✅High-quality, retina-ready OG Images</p>
-        <p class="feature-font">✅Global CDN for fast OG Image delivery</p>
-        <p class="feature-font">✅Simple dashboard for managing multiple websites</p>
-        <p class="feature-font">✅"Refresh OG Images" option when your site design changes</p>
-        <p class="feature-font">✅Advanced analytics and usage tracking for Pro users</p>
+        <div class="feature">
+            <img src="./images/chechmark-icon.png" alt="check">
+            <div class="feature-text">Automated OG image generation from your web pages</div>
+        </div>
+
+        <div class="feature">
+            <img src="./images/chechmark-icon.png" alt="check">
+            <div class="feature-text">Seamless integration with minimal setup</div>
+        </div>
+
+        <div class="feature">
+            <img src="./images/chechmark-icon.png" alt="check">
+            <div class="feature-text">Beautiful social previews that boost engagement</div>
+        </div>
+
+        <div class="feature">
+            <img src="./images/chechmark-icon.png" alt="check">
+            <div class="feature-text">High-quality, retina-ready OG Images</div>
+        </div>
+
+        <div class="feature">
+            <img src="./images/chechmark-icon.png" alt="check">
+            <div class="feature-text">Global CDN for fast OG Image delivery</div>
+        </div>
+
+        <div class="feature">
+            <img src="./images/chechmark-icon.png" alt="check">
+            <div class="feature-text">Simple dashboard for managing multiple websites</div>
+        </div>
+
+        <div class="feature">
+            <img src="./images/chechmark-icon.png" alt="check">
+            <div class="feature-text">"Refresh OG Images" option when your site design changes</div>
+        </div>
+
+        <div class="feature">
+            <img src="./images/chechmark-icon.png" alt="check">
+            <div class="feature-text">Advanced analytics and usage tracking for Pro users</div>
+        </div>
+    </div>
+
+    <div class="sub-container-2">
+        <h1>Simple, Transparent Pricing</h1>
     </div>
 </body>
 
