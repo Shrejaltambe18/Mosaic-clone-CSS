@@ -199,9 +199,46 @@
         }
 
         .sub-container-2 {
-            padding-left: 250px;
-            padding-right: 250px;
+            padding-left: 80px;
+            padding-right: 80px;
             padding-bottom: 400px;
+        }
+
+        .card-text {
+            color: rgb(113, 113, 122);
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .pricing-card {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .pricing-card-1 {
+            width: 310px;
+            height: 280px;
+            background-color: white;
+            border: 1px solid rgb(113, 113, 122);
+            margin-top: 20px;
+            border-radius: 20px;
+            padding-top: 20px;
+            padding-left: 20px;
+        }
+
+        .card-body-main-text {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .card-body-text {
+            color: rgb(113, 113, 122);
+            font-size: 18px;
+        }
+
+        .dollar {
+            text-align: left;
         }
 
         @media (max-width:768px) {
@@ -367,6 +404,29 @@
 
     <div class="sub-container-2">
         <h1>Simple, Transparent Pricing</h1>
+        <p class="card-text">Start for free and upgrade when you need more. No hidden fees, cancel anytime.</p>
+
+        <div class="pricing-card">
+            <div class="pricing-card-1">
+                <div class="card-body-main-text">Free</div>
+                <div class="card-body-text">Perfect for getting started</div>
+                <h1 class="dollar">$0
+                    <div class="card-body-text">/month</div>
+                </h1>
+            </div>
+
+            <div class="pricing-card-1">
+                <div class="card-body-main-text">Pro</div>
+                <div class="card-body-text">For growing websites</div>
+                <h1 class="dollar">$19</h1>
+            </div>
+
+            <div class="pricing-card-1">
+                <div class="card-body-main-text">Pro Yearly</div>
+                <div class="card-body-text">Best Value for Power Users</div>
+                <h1 class="dollar">$199</h1>
+            </div>
+        </div>
     </div>
 </body>
 
